@@ -13,6 +13,7 @@ public abstract class Departamento {
 		this.nome = nome;
 		this.cpf = cpf;
 		this.nascimento = nascimento;
+		System.out.println("Funcionário " + this.nome + " cadastrado com sucesso!");
 	} 
 	public String getNome() {
 		return nome;
